@@ -1,0 +1,60 @@
+/* CSS RESAT */
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     background-color:   #bfcac2;
+}
+
+.container{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .Calculator{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 11px 9px;
+    height: 54%;
+    width: 22%;
+    background-color:  #49406ecc;
+   }
+
+    
+.sr input{
+    width:  60px;
+    height: 55px;
+    border-radius: 6px;
+    margin: 1px 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: transparent ;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+
+}
+form .firstr{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.firstr input{
+    background-color: #49406ecc;
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: none;
+    width: 328px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+  #equal{
+    width: 145px;
+}
+input.operator{
+    color:  #befd70;
+}
+ 
