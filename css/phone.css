@@ -1,63 +1,63 @@
- /* CSS RESET */
+/* CSS RESET */
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #bfcac2;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #bfcac2;
 }
 
 .container {
-    height: 95vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Calculator {
-    border: 2px solid black;
-    border-radius: 12px;
-    padding: 2% 1.5%;
-    height: auto;  
-    width: 80%;  
-    max-width: 450px;  
-    background-color: #49406ecc;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 2% 1.5%;
+  height: auto;
+  width: 80%;
+  max-width: 450px;
+  background-color: #49406ecc;
 }
 
 .sr input {
-    width: 20%; 
-    height: 60px;
-    border-radius: 6px;
-    margin: 1px 1%;
-    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.2);
-    background-color: transparent;
-    font-size: 16px;
-    color: #fff;
-    cursor: pointer;
+  width: 20%;
+  height: 60px;
+  border-radius: 6px;
+  margin: 1px 1%;
+  box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
 }
 
 form .firstr {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .firstr input {
-    background-color: #49406ecc;
-    text-align: right;
-    flex: 1;
-    font-size: 24px;
-    box-shadow: none;
-    border-radius: 8px;
-    margin-bottom: 7px;
-    padding: 5px;
+  background-color: #49406ecc;
+  text-align: right;
+  flex: 1;
+  font-size: 24px;
+  box-shadow: none;
+  border-radius: 8px;
+  margin-bottom: 7px;
+  padding: 5px;
+  min-width: 200px;
 }
 
 #equal {
-    width: 45%;
+  width: 45%;
 }
 
 input.operator {
-    color: #befd70;
+  color: #befd70;
 }
-
- 
